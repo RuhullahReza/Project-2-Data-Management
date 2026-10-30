@@ -37,7 +37,7 @@ def backfill_fund_distribution_programs(c):
 
     start_date, end_date = date(2026, 9, 1), date(2026, 10, 1)
     programs = [
-        ('Pembayaran Pensiun', 'pension', start_date, end_date, 2_000_000_000_000, 'active', distributor_ids['pension']),
+        ('Pembayaran Pensiun', 'pension', start_date, end_date, 10_000_000_000, 'active', distributor_ids['pension']),
         ('Bansos', 'social_assistance', start_date, end_date, 1_000_000_000, 'active', distributor_ids['social_welfare'])
     ]
 
